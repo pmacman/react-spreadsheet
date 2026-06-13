@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    /* Build */
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "moduleDetection": "force",
+    "jsx": "react-jsx",
+    "noEmit": true,
+    "resolveJsonModule": true,
+
+    /* Environment (Isolated strictly to the Browser) */
+    "types": ["vite/client"],
+
+    /* Modern TS / Bundler (Required for noEmit) */
+    "esModuleInterop": true,
+    "verbatimModuleSyntax": true,
+    "allowImportingTsExtensions": true,
+    "useDefineForClassFields": true,
+
+    /* Strictness (Elite Tier) */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitOverride": true,
+
+    /* Performance */
+    "skipLibCheck": true,
+
+    /* Path Aliases (Relative to project root, removing baseUrl friction) */
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["src"]
+}
