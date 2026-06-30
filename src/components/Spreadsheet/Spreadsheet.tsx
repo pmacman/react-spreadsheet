@@ -99,7 +99,7 @@ function Spreadsheet() {
   }, [downloadSpreadsheet, enqueueSnackbar]);
 
   return (
-    <button className={'btn'} onClick={handleDownloadClick} disabled={fileLoading}>
+    <button className="btn" onClick={handleDownloadClick} disabled={fileLoading}>
       CLICK TO DOWNLOAD CONTACT INFO
     </button>
   );
