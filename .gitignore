@@ -2,10 +2,6 @@
 .DS_Store
 ._*
 
-# Editors
-.idea/
-.vscode/
-
 # Dependencies
 node_modules/
 
