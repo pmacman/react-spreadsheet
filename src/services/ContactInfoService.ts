@@ -1,4 +1,4 @@
-import type { ContactInfo } from '@models/ContactInfo';
+import type { ContactInfo } from '@/types/contact.types';
 
 class ContactInfoService {
   public static getContactInfo(): Promise<ContactInfo[]> {

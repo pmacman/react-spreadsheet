@@ -1,9 +1,9 @@
 import ContactInfoService from '@/services/ContactInfoService';
-import type { Address, ContactInfo } from '@/types/ContactInfo';
+import type { Address, ContactInfo } from '@/types/contact.types';
 import type {
   SpreadsheetDownloadColumn,
   SpreadsheetDownloadWorkbook,
-} from '@/types/SpreadsheetDownload';
+} from '@/types/spreadsheet.types';
 import { getFormattedDate } from '@/utils/dateFormatter';
 import { downloadSpreadsheet } from '@/utils/spreadsheetDownloader';
 import { useSnackbar } from 'notistack';

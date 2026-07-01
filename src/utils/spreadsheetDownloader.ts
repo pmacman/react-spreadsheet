@@ -2,7 +2,7 @@ import type {
   SpreadsheetDownloadColumn,
   SpreadsheetDownloadWorkbook,
   SpreadsheetDownloadWorksheet,
-} from '@/types/SpreadsheetDownload';
+} from '@/types/spreadsheet.types';
 import { getStringValue } from '@/utils/dateFormatter';
 import Excel from 'exceljs';
 import FileSaver from 'file-saver';
