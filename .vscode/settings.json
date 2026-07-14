@@ -3,7 +3,7 @@
     "source.fixAll.eslint": "explicit", // Automatically fix ESLint issues on save
     "source.organizeImports": "explicit" // Automatically sort and remove unused imports
   },
-  "editor.formatOnSave": true, // Format files automatically on save (Prettier)
+  "npm.packageManager": "npm", // Use npm for package management
   "prettier.requireConfig": true, // Only run Prettier if a config file exists
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode" // Use Prettier for CSS
